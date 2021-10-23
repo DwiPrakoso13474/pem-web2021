@@ -1,0 +1,61 @@
+body {
+    /* background-color: rgb(0, 0, 0); */
+    background-image: url(img/wp6581266-money-heist-2020-4k-wallpapers.jpg);
+    background-size: cover;
+}
+h1 {
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    margin-top: 60px;
+    text-transform: uppercase;
+}
+.container {
+    width: 600px;
+    background-color: rgba(211, 26, 26, 0.932);
+    margin: 30px auto;
+    padding: 30px;
+    box-shadow: 0 0 4px #ff0000;
+    border-radius: 10px;
+    /* display: flex; */
+}
+.galery{
+    display: flex;
+}
+.galery li {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    /* overflow: hidden; */
+    border: 5px solid #666;
+    /* float: left; */
+    /* display: flex; */
+    position: relative;
+    margin-right: 20px;
+}
+
+.galery li span {
+    width: 120px;
+    height: 120px;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    background-color: #81818191;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    line-height: 120px;
+    text-align: center;
+    opacity: 0;
+    transition: 0.3s;
+}
+.galery li a:hover span {
+    opacity: 1;
+    
+}
+.galery li img {
+    border-radius: 50%;
+}
+/* .clear {
+    clear: left;
+} */
