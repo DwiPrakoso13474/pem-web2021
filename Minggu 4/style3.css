@@ -1,0 +1,14 @@
+form {
+    width: 50%;
+    margin: auto;
+    line-height: 30px;
+}
+fieldset {
+    border-radius: 10px;
+}
+legend {
+    text-align: center;
+}
+table {
+    margin: auto;
+}
