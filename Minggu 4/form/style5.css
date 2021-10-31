@@ -1,0 +1,52 @@
+body {
+    width: 1280px;
+    height: 640px;
+    background-image: url(../img/sch.jpg);
+    background-size: cover;
+    /* background-position-x: 23px; */
+}
+form .f-datasekolah {
+    /* width: 80%;
+    height: 500px; */
+    width: 300px;
+    height: 300px;
+    background-color: rgba(111, 79, 79, 0.35);
+    border-radius: 15px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+form .f-datasekolah h3 {
+    text-align: center;
+    margin-top: 30px;
+}
+.f-datasekolah table {
+    position: absolute;
+    width: 275px;
+    left: 50%;
+    top: 50%;
+    /* padding: 20px; */
+    /* border:1px solid salmon; */
+    /* box-sizing: border-box; */
+    /* background-color: rgba(255, 255, 255, 0.308); */
+    transform: translate(-50%,-50%);
+    border-collapse: separate;
+    border-spacing: 0 20px;
+}
+.f-datasekolah table input {
+    background-color: royalblue;
+    border-radius: 5px;
+    border: 0;
+}
+.f-datasekolah .button input {
+    background-color: royalblue;
+    border-radius: 5px;
+    border: 0;
+    /* position: absolute; */
+    padding: 5px;
+    /* bottom: 0;
+    left: 60px; */
+    margin-top: 160px;
+    margin-left: 55px;
+}
