@@ -1,0 +1,10 @@
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: salmon;
+    background-color: aqua;
+}
+p {
+    font-size: 14px;
+    color: red;
+}
