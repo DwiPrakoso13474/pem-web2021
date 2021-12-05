@@ -1,0 +1,31 @@
+body {
+    background-color: #35a9db;
+    font-family: roboto;
+    text-align: center;
+}
+h1 {
+    color: #fff;
+}
+.ketengah {
+    margin: 10px auto;
+    width: 1150px;
+}
+.kotak {
+    background-color: #0000ff;
+    width: 500px;
+    height: 250px;
+    float: left;
+    margin: 30px;
+}
+.gradient1 {
+    background-image: linear-gradient(to right,red,green);
+}
+.gradient2 {
+    background-image: linear-gradient(to left,#999,#fff,salmon);
+}
+.gradient3 {
+    background-image: radial-gradient(rgb(32, 127, 182) 50%,rgb(9, 226, 107),rgb(255, 255, 255));
+}
+.gradient4 {
+    background-image: radial-gradient(circle,rgb(173, 35, 35) 20%,rgb(200, 255, 0),rgb(185, 12, 219));
+}
