@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Percabangan Ternary</title>
+    <title>Perulangan Nested</title>
 </head>
 <body>
     <script>
-        var jwb = prompt("Apakah Jakarta Ibu Kota Indonesia?");
-
-        var jawaban = (jwb.toUpperCase() == "IYA") ? "Benar" : "Salah";
-
-        document.write(`jawaban anda : <b>${jawaban}</b>`);
+        for(let i=0; i<10; i++){
+            for(let j=0; j<10; j++){
+                document.write("<p>Perulangan ke " + i + ", " + j + "</p>");
+            }
+        }
     </script>
 </body>
 </html>

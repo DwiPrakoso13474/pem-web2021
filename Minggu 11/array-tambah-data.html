@@ -4,15 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Percabangan Ternary</title>
+    <title>Mengisi data ke Array</title>
 </head>
 <body>
     <script>
-        var jwb = prompt("Apakah Jakarta Ibu Kota Indonesia?");
+        // array
+        var products = ["Senter", "Radio", "Antena", "Obeng"];
+        
+        products.push("Televisi");
 
-        var jawaban = (jwb.toUpperCase() == "IYA") ? "Benar" : "Salah";
-
-        document.write(`jawaban anda : <b>${jawaban}</b>`);
+        document.write(products);
     </script>
+
+    
 </body>
 </html>
